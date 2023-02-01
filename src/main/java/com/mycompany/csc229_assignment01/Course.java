@@ -33,6 +33,48 @@ package com.mycompany.csc229_assignment01;
  * @author MoaathAlrajab
  */
 public class Course {
+
+    /**
+     * @return the ID
+     */
+    public int getID() {
+        return ID;
+    }
+
+    /**
+     * @param ID the ID to set
+     */
+    public void setID(int ID) {
+        this.ID = ID;
+    }
+
+    /**
+     * @return the Name
+     */
+    public String getName() {
+        return Name;
+    }
+
+    /**
+     * @param Name the Name to set
+     */
+    public void setName(String Name) {
+        this.Name = Name;
+    }
+
+    /**
+     * @return the Code
+     */
+    public int getCode() {
+        return Code;
+    }
+
+    /**
+     * @param Code the Code to set
+     */
+    public void setCode(int Code) {
+        this.Code = Code;
+    }
    private int ID;
    private String Name;
    private int Code;
