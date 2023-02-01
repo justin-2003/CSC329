@@ -33,10 +33,12 @@ package com.mycompany.csc229_assignment01;
  * @author MoaathAlrajab
  */
 public class Course {
-    
+   //Created the date members
    private int ID;
    private String Name;
    private String Code;
+   
+   //the Setters and Getters for the date members
     /**
      * @return the ID
      */
@@ -78,11 +80,13 @@ public class Course {
     public void setCode(String Code) {
         this.Code = Code;
     } 
+    //the Default constructor that has the deafult value for id, name and Code
     public Course(){
         this.ID= 12012;
         this.Name = "Moaath";
         this.Code = "CSC229";
     }
+    // the overload Constructor that will change the Id, Name and Code
     public Course(int ID, String Name, String Code){
        this.ID = ID;
        this.Name = Name;
