@@ -33,7 +33,10 @@ package com.mycompany.csc229_assignment01;
  * @author MoaathAlrajab
  */
 public class Course {
-
+    
+   private int ID;
+   private String Name;
+   private String Code;
     /**
      * @return the ID
      */
@@ -65,17 +68,24 @@ public class Course {
     /**
      * @return the Code
      */
-    public int getCode() {
+    public String getCode() {
         return Code;
     }
 
     /**
      * @param Code the Code to set
      */
-    public void setCode(int Code) {
+    public void setCode(String Code) {
         this.Code = Code;
+    } 
+    public Course(){
+        this.ID= 12012;
+        this.Name = "Moaath";
+        this.Code = "CSC229";
     }
-   private int ID;
-   private String Name;
-   private int Code;
+    public Course(int ID, String Name, String Code){
+       this.ID = ID;
+       this.Name = Name;
+       this.Code = Code;
+    }
 }
