@@ -84,7 +84,7 @@ public class Course {
     public Course(){
         this.ID= 12012;
         this.Name = "Moaath";
-        this.Code = "CSC229";
+        this.Code = "CSC329";
     }
     // the overload Constructor that will change the Id, Name and Code
     public Course(int ID, String Name, String Code){
